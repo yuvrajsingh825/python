@@ -1,28 +1,27 @@
-def square(num):
-    return num*num
-
-def is_adult(age):
-    if age < 18:
-         print("Minor")
-         return False
-    else:
-        print("Adult")
-        return True
-    
-def calculate_total(a, b, c):
-    print(" Total : ")
-    return a + b + c
+# Function that prints my name
+def print_name():
+    print("Yuvraj")
 
 
-age = int(input("Enter your age: "))
-print(is_adult(age))
+# Function that prints a city
+def print_city():
+    print("Dhar")
 
+
+# Function that prints numbers from 1 to 5
+def print_number():
+    for i in range(1, 6):
+        print(i)
+
+
+# Function that takes a number and returns its square
+def calculate_square(num):
+    return num * num
+
+
+print_name()
+print_city()
+print_number()
 
 a = int(input("Enter a number: "))
-print(square(a))
-
-
-num1 = int(input("Enter num 1: "))
-num2 = int(input("Enter num 2: "))
-num3 = int(input("Enter num 3: "))
-print(calculate_total(num1, num2, num3))
+print("Square of", a, "is", calculate_square(a))
