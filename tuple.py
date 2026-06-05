@@ -25,3 +25,19 @@ for num in numbers1:
         count += 1
 
 print("Count =", count)
+
+
+# student 
+student = (
+    "Yuvraj",
+    19,
+    "CSE AI",
+    "Medicaps University"
+)
+
+print("Name:",student[0])
+print("Age:",student[1])
+print("Branch:",student[2])
+print("Collage:",student[3])
+
+
