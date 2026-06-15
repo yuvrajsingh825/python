@@ -1,8 +1,5 @@
 {
-    "name": "Yuvraj",
-    "age": 19,
-    "skills": [
-        "Python",
-        "Git"
-    ]
+    "name": "yuvraj",
+    "age": 19
+    
 }
